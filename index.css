@@ -1,7 +1,9 @@
 .parent{
     position: relative;
 }
-
+body {
+    width: 100vw;
+}
 .above-fold{
     position: absolute;
     top: 50%;
