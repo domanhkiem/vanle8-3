@@ -7,13 +7,26 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 30vh;
+}
+.above-fold .info-text {
+    font-size: 20px;
+}
+.above-fold .info-text i {
+    color: red;
+    font-size: 20px;
 }
 @media (max-width: 739px) {
     .above-fold{
         position: absolute;
-        top: 80%;
-        left: 40%;
+        top: 74%;
+        left: 50%;
         transform: translate(-50%, -50%);
+        /* height: 90px; */
+    }
+    .above-fold .info-text {
+        position: absolute;
+        top: -100px;
     }
 
 }
