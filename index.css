@@ -8,3 +8,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media (max-width: 739px) {
+    .above-fold{
+        position: absolute;
+        top: 80%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+}
