@@ -15,6 +15,7 @@
   </head>
   <body>
     <div class="parent">
+      
       <canvas id="canvas"></canvas>
       <section class="above-fold">
         <p class="info-text">Click to Open<i class="fa-sharp fa-solid fa-arrow-down"></i></p>
@@ -49,7 +50,7 @@
         <h4 class="content-card">
           
         </h4>
-        <script src="./heart.js"></script>
+        
       </div>
     </div>
     <audio autoplay loop  id="playAudio">
@@ -245,7 +246,16 @@
       }
       
       </script>
-    <div style="margin-left: 0px;">
+      <br>
+      Text Colour:<br>
+      <input type="submit" value="Red" onclick="setColour('#ff0000')">
+      <input type="submit" value="Green" onclick="setColour('#00ff00')">
+      <input type="submit" value="Blue" onclick="setColour('#0000ff')">
+      <input type="submit" value="White" onclick="setColour('#ffffff')">
+      
+      <br><br>
+      <script src="./heart.js"></script>
+    <!-- <div style="margin-left: 0px;">
       <div id="output" style="padding:10px;background: #000;overflow:auto;width:98%;"><font color="#00ff00"></font><pre><font color="#00ff00">                                                                               ,:.,,:::,,,,,...,,,  
                                                                                      ;;ii;i;i;i1ii:;;iii, 
                                                                                                           
@@ -362,7 +372,7 @@
       
       <br><br>
   
-          </div>
+          </div> -->
   </body>
   <script src="config.js"></script>
   <script src="canvas.js"></script>
